@@ -116,7 +116,10 @@ def changing_alan
      alans_new_info = "GUI"
      
      programmer_hash[:alan_kay][:known_for] = "GUI"
+<<<<<<< HEAD
      programmer_hash
+=======
+>>>>>>> 3eddc3257f127721d7584c53632d9534487c598a
      
 end
 
@@ -133,12 +136,16 @@ def adding_to_dennis
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
   
+<<<<<<< HEAD
   
   programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
   programmer_hash
+=======
+  programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
+>>>>>>> 3eddc3257f127721d7584c53632d9534487c598a
 
 end
